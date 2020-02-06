@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ITunesInfo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_name_album">введите название альбома</string>
+    <string name="title_search_screen">iTunesInfo</string>
+    <string name="data_uploaded_successfully">данные успешно загружены</string>
+    <string name="error_search">Ошибка запроса. Проверьте введенные данные</string>
+    <string name="search_result_title">Результаты поиска</string>
+    <string name="start_search_title">найти</string>
+    <string name="empty_request">введите данные для поиска</string>
+    <string name="song_list_text">список композиций</string>
+    <string name="copyright_text">Студия</string>
+    <string name="releaseDate_text">дата выпуска</string>
+    <string name="country_text">страна</string>
+    <string name="primaryGenreName_text">жанр</string>
+    <string name="title_app_part_1">iTunes</string>
+    <string name="title_app_part_2">info</string>
+    <string name="error_song_load">не удалось загрузить список песен</string>
+    <string name="network_error">Ошибка запроса. проверьте подключение к сети</string>
+</resources>

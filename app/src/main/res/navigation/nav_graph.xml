@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/searchFragment">
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.vvp.itunesinfo.fragments.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_to_albumListFragment"
+            app:destination="@id/albumListFragment"
+            app:launchSingleTop="true"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/albumListFragment"
+        android:name="com.vvp.itunesinfo.fragments.AlbumListFragment"
+        android:label="fragment_album_list"
+        tools:layout="@layout/fragment_album_list" >
+        <action
+            android:id="@+id/action_to_detailsAlbumFragment"
+            app:destination="@id/detailsAlbumFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsAlbumFragment"
+        android:name="com.vvp.itunesinfo.fragments.DetailsAlbumFragment"
+        android:label="fragment_details_album"
+        tools:layout="@layout/fragment_details_album" />
+</navigation>
